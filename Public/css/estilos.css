@@ -1,0 +1,525 @@
+ *,
+*::before,
+*::after {
+    box-sizing: border-box;    
+} 
+body{
+     background: #746969; 
+     
+  
+}
+/* Barra de navegacion */
+.navbar   {
+    padding: 1.9rem;
+    height: 40px;
+    background-color:#d9d8d3;
+    font-size: 1.3rem;
+    font-weight: 16px;
+
+
+}
+
+.navbar-toggler{
+    border:none;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+
+}
+.Home a {
+    background-color:#808080;
+    color:black;
+}
+.Home:hover a{
+    background-color:#0984e3;
+    font-size: 2rem; 
+    transition: all 0.2s ease-in-out;
+}
+  
+
+/* Estilos generales */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: right;
+
+}
+h1{
+    font-size: 2.5rem;
+    font-family: 'Cedarville Cursive', cursive;
+    text-align: center;
+}
+  
+
+.seccion-oscura{
+    color:white;
+    background-color:#808080 ;
+
+}
+.seccion-clara{
+    color: black;
+    background-color: white; 
+  
+}
+
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family:'Cedarville Cursive', cursive;
+   
+}
+.seccion-descripcion{
+font-size: 1.2rem;
+color: #584e4e;
+}
+.seccion-texto{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.btn-info {
+    color:white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color:#0984e3 ;
+    border: 0px solid white;
+    padding: 10px; 
+    margin: 10px;
+    border-radius: 50px;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-info:hover {
+    background-color:#0984e3;
+    color:black;
+
+}
+
+.btn-info i {
+    color:white;
+    font-size: 2rem; 
+    transition: all 0.2s ease-in-out;
+}
+.btn-info:hover i {
+    color: black;
+}
+
+.texto-negro{
+    color: black;
+}
+.texto-blanco{
+    color: white;
+}
+/* Section Home */
+.home {
+    height: 500px;
+    padding: 10px;
+    }
+.home .contenedor {
+    max-width: 500px;
+    text-align: center;
+
+}
+/* About us */
+.about-us .container {
+    max-width: 900px;
+    min-height: 100px;
+    padding: 20px;
+}
+
+.about-us.row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.about-us.descripcion {
+    color: white;
+    font-size: 1.2rem;
+    
+}
+.about-us button {
+    color:white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+.about-us button:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.about-us button i{
+    color:white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+.about-us button:hover i{
+    color: black;
+}
+/* Servicios */
+.servicios .container {
+    max-width: 900px;
+    min-height: 100px;
+    padding: 20px;
+}
+
+.servicios.row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.servicios.descripcion {
+    color: white;
+    font-size: 1.2rem;
+    
+}
+.servicios button {
+    color:white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+.servicios button:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.servicios button i{
+    color:white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+.servicios button:hover i{
+    color: black;
+}  
+  
+/* Experiencia */
+.experiencia {
+    padding: 40px 40px 60px 40px;
+}
+
+.experiencia-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+    
+
+}
+
+.experiencia .columna {
+    padding: 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+    
+
+}
+
+.experiencia .columna:hover {
+   color:black;
+   background-color:#0984e3 ;
+
+
+}
+
+.experiencia i {
+    font-size: 2.5rem;
+    color:#0984e3;
+    background-color: black;
+    padding: 8px 19px;
+    border-radius: 50%;
+    
+}
+
+.badges-contenedor {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+   
+
+}
+.badge-text {
+ color:#0984e3;
+}
+
+.badges {
+    margin: 5px;
+    
+    
+}
+/* Proyectos */
+.proyectos-recientes{
+    padding: 40px;
+}
+.proyectos-recientes img{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+.proyectos-contenedor{
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.overlay{
+    transition: all 0.2s ease ;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.overlay p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+
+
+
+}
+.overlay .iconos-contenedor{
+    display:flex;
+}
+
+.overlay i {
+    color: black;
+    font-size: 60px;
+    margin: 10px;
+}
+.proyecto {
+    position: relative;
+}
+
+.proyecto:hover img{
+    opacity: 0.2;
+}
+.proyecto:hover .overlay{
+    opacity:1 ;
+}
+/* Testimonio */
+.testimonios {
+    padding: 40px 40px 80px 40px;
+}
+.testimonios .carousel {
+    max-width: 800px;
+}
+
+.carousel-item {
+    height: 500px;
+    
+}
+.carousel-item .container  {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-item.controls{
+    transition: transform 2s ease, opacity .5s ease-out
+}
+.testimonio-imagen {
+    height: 150px;
+    width: 150px;
+    margin: 10px 10px 20px 10px;
+
+}
+.testimonio-texto {
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+}
+.testimonio-info {
+    font-weight: bold;
+    text-align: center;
+}
+.testimonio-info p {
+    margin-bottom: 0;
+}
+.testimonio-footer .cliente {
+    font-size: 1.2rem;
+}
+.testimonio-info .cargo {
+    font-size: 0.9rem;
+    color: black;
+}
+/* WhatApp */
+#wa{
+    position: fixed;
+    bottom: 20px; 
+    right: 20px;
+    background-color:#0984e3;
+    border-radius: 50px;
+   
+
+} 
+
+/* Contacto  */
+
+.contacto .container {
+    max-width: 900px;
+    min-height: 100px;
+    padding: 20px;
+}
+.contacto .rectangulo{
+    margin-top: -5rem;
+    background-color:#0984e3;
+    border-radius: 10px;
+  
+}
+.contacto .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.contacto .descripcion {
+    color: white;
+    font-size: 1.2rem;
+    
+}
+.contacto button {
+    color:white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+.contacto button:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.contacto button i{
+    color:white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+.contacto button:hover i{
+    color: black;
+}
+/* Footer */
+footer{
+    min-height: 500px;
+}
+.footer-logo {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    border-radius: 50%;
+
+}
+.footer-texto {
+   font-size: 1.8rem ;
+   padding: 20px;
+   margin-bottom: 30px;
+   font-family:'Cedarville Cursive', cursive;
+
+} 
+   
+.iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+.iconos-redes-sociales i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+.iconos-redes-sociales a {
+    background-color: grey;
+    border: 2px solid  white;
+}
+.iconos-redes-sociales a:hover i{
+    color: black;
+}
+
+.derechos-de-autor{
+    font-size: 15px;
+    color:black;
+    padding: 20px;
+}
+    
+
+
+/* Adaptable (responsive) */
+
+@media screen and (max-width: 400px){
+    .overlay p{
+        font-size: 18px;
+     }
+     .overlay i{
+        font-size: 40px;
+     }
+    }
+    @media screen and (max-width: 767px){
+        .navbar-brand {
+          display: none;
+     }
+    }
+   
+    @media screen and (max-width: 800px) {
+     .testimonio-imagen {
+        height: 120PX;
+        width: 120PX;
+     }
+     .testimonio-texto {
+        font-size: 18px;
+        }
+    }
+    
+    @media screen and (min-width: 700px) {
+    .hero-inferior-imagen{
+        max-width: 600px;
+    }
+    }
+    
+    
+    
+
+    
+    
+
+
+
+
